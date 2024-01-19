@@ -1,0 +1,20 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'made_tommy_regular'; 
+    src: url('assets/fonts/made_tommy_regular.otf') format('truetype'); 
+  }
+
+body{
+    font-family: 'made_tommy_regular'; 
+}
+
+/* background home */ 
+.bg-home{
+    background: linear-gradient(-40deg,#9a326b 0,#0f4c81 100%);
+}
+.bg-page{
+  background-color: #252526;
+}
